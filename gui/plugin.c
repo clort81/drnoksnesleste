@@ -25,7 +25,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <gtk/gtk.h>
-// what was this - clort - #include <startup_plugin.h>
+#include <startup_plugin.h>
 #include <gconf/gconf.h>
 #include <gconf/gconf-client.h>
 #include <hildon/hildon-file-chooser-dialog.h>
@@ -66,8 +66,7 @@ static StartupPluginInfo plugin_info = {
 	plugin_callback
 };
 
-// cloret oldway STARTUP_INIT_PLUGIN(plugin_info, gs, FALSE, TRUE)
-//STARTUP_INIT_PLUGIN(plugin_info, gs, FALSE, TRUE)
+STARTUP_INIT_PLUGIN(plugin_info, gs, FALSE, TRUE)
 
 gchar* current_rom_file = 0;
 gboolean current_rom_file_exists = FALSE;

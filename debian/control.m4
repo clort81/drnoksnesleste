@@ -3,10 +3,10 @@ Section: user/games
 Priority: extra
 Maintainer: Javier S. Pedro <maemo@javispedro.com>
 Build-Depends: debhelper (>= 5), pkg-config, m4, libsdl1.2-dev,
- libx11-dev, x11proto-core-dev, libxsp-dev, libpopt-dev, zlib1g-dev, gnupg,
+ libx11-dev, x11proto-core-dev, libpopt-dev, zlib1g-dev, gnupg,
  libosso-dev, osso-games-startup-dev, libsdl-image1.2-dev,
  libhildonfm2-dev, libhildonmime-dev,
- maemo-version (<< 5.0) | libsdl-haa1.2-dev (>= 1.1.0)
+ libsdl-haa1.2-dev (>= 1.1.0)
 Standards-Version: 3.7.2
 
 Package: drnoksnes

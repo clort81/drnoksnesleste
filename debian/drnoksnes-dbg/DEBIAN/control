@@ -1,0 +1,10 @@
+Package: drnoksnes-dbg
+Source: drnoksnes
+Version: 1.3.5
+Architecture: armhf
+Maintainer: Javier S. Pedro <maemo@javispedro.com>
+Installed-Size: 2482
+Depends: drnoksnes (= 1.3.5)
+Section: devel
+Priority: extra
+Description: Debug symbols for the DrNokSnes emulator

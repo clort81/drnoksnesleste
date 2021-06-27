@@ -13,7 +13,7 @@
 # from having to guess our platform (since we know it already)
 DEB_HOST_GNU_TYPE   ?= $(shell dpkg-architecture -qDEB_HOST_GNU_TYPE)
 DEB_BUILD_GNU_TYPE  ?= $(shell dpkg-architecture -qDEB_BUILD_GNU_TYPE)
-ARCH				?= $(shell dpkg-architecture -qDEB_BUILD_ARCH)
+ARCH ?= $(shell dpkg-architecture -qDEB_BUILD_ARCH)
 
 # Determine Maemo version
 #MAEMO_VERSION := $(shell cut -d"." -f1 /etc/maemo_version)
@@ -41,13 +41,13 @@ ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
 	CFLAGS += -O0
 	CXXFLAGS += -O0
 	GUI_CFLAGS += -O0
-else ifneq (,$(findstring armel,$(ARCH)))
+else ifneq (,$(findstring armhf,$(ARCH)))
 	CFLAGS += $(OPT_CFLAGS)
 	CXXFLAGS += $(OPT_CXXFLAGS)
 	GUI_CFLAGS += -Os
 	ifneq (,$(findstring vfp,$(DEB_BUILD_OPTIONS)))
-		CFLAGS += -march=armv6j -mtune=arm1136jf-s -mfpu=vfp -mfloat-abi=softfp
-		ASFLAGS += -march=armv6j -mfpu=vfp -mfloat-abi=softfp
+		CFLAGS += -march=native -mtune=native -mfpu=neon -mfloat-abi=hardfp
+		ASFLAGS += -march=native -mfpu=neon -mfloat-abi=hardfp
 	endif
 	ifeq ($(shell expr "$(MAEMO_VERSION)" "<" 5), 1)
 		# Fixes hang while exiting in Diablo.

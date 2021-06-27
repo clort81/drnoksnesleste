@@ -1,0 +1,17 @@
+7822bed0eab077d29007aa276d4d9851  usr/games/drnoksnes
+f5d725c555b46b96c2ad73e12410fb88  usr/lib/drnoksnes_plugin.so
+197452187037a9383821e374fd3acfcc  usr/share/applications/hildon/drnoksnes.desktop
+555e992a1f6de97206b76e5969e43b99  usr/share/dbus-1/services/drnoksnes.service
+b9f77ee87ac79f808dd5b740a945cb51  usr/share/dbus-1/services/drnoksnes.startup.service
+75877d4259704a6e8d00f6d768dd64b7  usr/share/games/drnoksnes/drnoksnes.conf
+8ef081f9ffa8ac269e90cbbca60d8bf0  usr/share/gconf/schemas/drnoksnes.schemas
+26d9b2dace7ac57b1b4e10ed2ff5fd19  usr/share/icons/hicolor/26x26/hildon/drnoksnes.png
+1cb2982eea56402dc54ce02f569f75f8  usr/share/icons/hicolor/40x40/hildon/drnoksnes.png
+ec637d7e5eb92f1730bf1c785693962a  usr/share/icons/hicolor/48x48/hildon/drnoksnes.png
+01df4f38261fedcd67e3ec980cfbd5ab  usr/share/icons/hicolor/scalable/hildon/drnoksnes.png
+7c1f7d42537ad8bd884ade42795146b0  usr/share/locale/cs/LC_MESSAGES/drnoksnes_plugin.mo
+24ab5b6f7f2900d883c01007c906e894  usr/share/locale/de/LC_MESSAGES/drnoksnes_plugin.mo
+384abe05b88b10ac4e97ac0ae30f3a50  usr/share/locale/es/LC_MESSAGES/drnoksnes_plugin.mo
+a4c1f80be00c2df8837fdb21a4d1607f  usr/share/locale/pl/LC_MESSAGES/drnoksnes_plugin.mo
+488acc535347f455ba7a251160c2282c  usr/share/locale/sv/LC_MESSAGES/drnoksnes_plugin.mo
+6a1ad65028b9930f18860f020c4742d4  usr/share/pixmaps/osso-games-startup-drnoksnes.png

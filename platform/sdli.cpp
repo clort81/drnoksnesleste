@@ -154,7 +154,7 @@ static void processEvent(const SDL_Event& event)
 				S9xDoAction(Config.action[event.key.keysym.scancode]);
 			joypads[0] |= Config.joypad1Mapping[event.key.keysym.scancode];
 			joypads[1] |= Config.joypad2Mapping[event.key.keysym.scancode];
-			printf("Keydown\n");
+			printf("Keydown %d\n",event.key.keysym.scancode);
 			break;
 		case SDL_KEYUP:
 			joypads[0] &= ~Config.joypad1Mapping[event.key.keysym.scancode];
