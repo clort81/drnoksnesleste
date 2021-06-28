@@ -466,7 +466,8 @@ class HAAFillScaler : public HAAScalerBase
 {
 	HAAFillScaler(SDL_Surface* screen, int w, int h)
 	: HAAScalerBase(screen, w, h,
-		GUI.Width / (float)w, GUI.Height / (float)h)
+		0.8*GUI.Width / (float)w, GUI.Height / (float)h)
+//clort not full width
 	{
 	}
 
