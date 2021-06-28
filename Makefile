@@ -1,7 +1,8 @@
 #!/usr/bin/make
 
 #CPPFLAGS := -g -O3 -march=armv7-a -mtune=cortex-a9 -mfpu=neon -ftree-vectorize -mfloat-abi=softfp   -I. $(shell sdl-config --cflags) $(shell pkg-config --cflags x11)
-CPPFLAGS := -g -O3 -march=native -mtune=native -mfpu=neon -ftree-vectorize -mfloat-abi=hard   -I. $(shell sdl-config --cflags) $(shell pkg-config --cflags x11)
+CFLAGS := -g -O3 -march=native -mtune=native -mfpu=neon-fp16 -mfloat-abi=hard   -I. $(shell sdl-config --cflags) $(shell pkg-config --cflags x11)
+CPPFLAGS := -g -O3 -march=native -mtune=native -mfpu=neon-fp16 -mfloat-abi=hard   -I. $(shell sdl-config --cflags) $(shell pkg-config --cflags x11)
 #LDLIBS := -nostartfiles -lz $(shell sdl-config --libs) $(shell pkg-config --libs x11) -lpopt
 LDLIBS := -lz $(shell sdl-config --libs) $(shell pkg-config --libs x11) -lpopt
 

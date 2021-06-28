@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.javispedro.drnoksnes
+Exec=/usr/bin/env DRNOKSNES_DBUS=y /usr/games/drnoksnes
+

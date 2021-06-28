@@ -228,6 +228,7 @@ static inline void pollOssoEvents() {
 #endif
 
 int main(int argc, char ** argv) {
+        putenv("SDL_VIDEO_X11_WMCLASS=app");  // testing from wiki.maemo.org/Game_development 
 	// Initialise SDL
 	if (SDL_Init(0) < 0) 
 		DIE("SDL_Init: %s", SDL_GetError());
