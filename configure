@@ -11,12 +11,13 @@ fi
 ARCH=$(dpkg-architecture -qDEB_BUILD_ARCH)
 GAME_VERSION=$(head -n 1 debian/changelog | sed 's/[^0-9.-]//g')
 
+
 echo ARCH="${ARCH}" > config.mk
-echo CONF_GUI=0 >> config.mk
-echo CONF_XSP=0 >> config.mk
+echo CONF_GUI=1 >> config.mk
+echo CONF_XSP=1 >> config.mk
 echo ASFLAGS="" >> config.mk
-echo CFLAGS="-Wall -g -O2  -mcpu=cortex-a9  -mtune=cortex-a9 -mfpu=neon-fp16 -mfloat-abi=hard  -ffast-math" >> config.mk
-echo CXXFLAGS="-Wall -g -O2  -mcpu=cortex-a9  -mtune=cortex-a9 -mfpu=neon-fp16 -mfloat-abi=hard  -ffast-math -fno-exceptions -fno-rtti" >> config.mk
+echo CFLAGS="-Wall -g -O3 -march=native -mtune=native -mfpu=neon-fp16 -mfloat-abi=hard  -ftree-vectorize -fno-strict-overflow -mno-unaligned-access -funsafe-math-optimizations -fno-exceptions -fno-rtti " >> config.mk
+echo CXXFLAGS="-Wall -g -O3 -march=native -mtune=native -mfpu=neon-fp16 -mfloat-abi=hard  -ftree-vectorize -fno-strict-overflow -mno-unaligned-access -funsafe-math-optimizations -fno-exceptions -fno-rtti " >> config.mk
 echo LDFLAGS="-Wl,-z,defs" >> config.mk
 
 make clean > /dev/null

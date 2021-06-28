@@ -34,7 +34,7 @@ endif
 # PNG screenshot support (requires libpng)
 CONF_PNG?=1
 # Hardware pixel doubling (in N8x0)
-CONF_XSP?=0
+CONF_XSP?=1
 # Hildon Desktop compositing (in Fremantle)
 CONF_HD?=1
 # Link to libzeemote
