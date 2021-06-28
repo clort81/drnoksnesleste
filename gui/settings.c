@@ -53,7 +53,7 @@ static struct scaler scalers[] = {
 	{"haafill", N_("Fill the entire screen")},
 	{"haaaspect", N_("Fill vertical keep aspect")},
 	{"xsp", N_("Antialiased 2x zoom")},
-#if MAEMO_VERSION >= 5
+#endif /* MAEMO_VERSION >= 5 */
 #endif /* __arm__ */
 	{"soft2x", N_("2x zoom")},
 	{"none", N_("No zoom")},
