@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DrNokSnes 1.3.5\n"
 "Report-Msgid-Bugs-To: maemo@javispedro.com\n"
-"POT-Creation-Date: 2021-06-28 10:43+0200\n"
+"POT-Creation-Date: 2021-06-28 10:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgstr ""
 msgid "Display framerate"
 msgstr ""
 
-#: plugin.c:313 settings.c:233
+#: plugin.c:313 settings.c:235
 msgid "Accurate graphics"
 msgstr ""
 
@@ -61,15 +61,15 @@ msgstr ""
 msgid "Framerate:"
 msgstr ""
 
-#: plugin.c:326 settings.c:265
+#: plugin.c:326 settings.c:267
 msgid "No speedhacks"
 msgstr ""
 
-#: plugin.c:327 settings.c:266
+#: plugin.c:327 settings.c:268
 msgid "Safe hacks only"
 msgstr ""
 
-#: plugin.c:328 settings.c:267
+#: plugin.c:328 settings.c:269
 msgid "All speedhacks"
 msgstr ""
 
@@ -81,11 +81,11 @@ msgstr ""
 msgid "About…"
 msgstr ""
 
-#: plugin.c:430 settings.c:186
+#: plugin.c:430 settings.c:188
 msgid "Settings"
 msgstr ""
 
-#: plugin.c:440 settings.c:205
+#: plugin.c:440 settings.c:207
 msgid "Controls"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Key"
 msgstr ""
 
-#: settings.c:50 settings.c:58
+#: settings.c:50 settings.c:60
 msgid "2x zoom"
 msgstr ""
 
@@ -195,35 +195,35 @@ msgstr ""
 msgid "Fill vertical keep aspect"
 msgstr ""
 
-#: settings.c:55
+#: settings.c:57
 msgid "Antialiased 2x zoom"
 msgstr ""
 
-#: settings.c:59
+#: settings.c:61
 msgid "No zoom"
 msgstr ""
 
-#: settings.c:212
+#: settings.c:214
 msgid "Player 1"
 msgstr ""
 
-#: settings.c:221
+#: settings.c:223
 msgid "Player 2"
 msgstr ""
 
-#: settings.c:227
+#: settings.c:229
 msgid "Advanced"
 msgstr ""
 
-#: settings.c:240 settings.c:305
+#: settings.c:242 settings.c:307
 msgid "Pause game in the background"
 msgstr ""
 
-#: settings.c:247 settings.c:300
+#: settings.c:249 settings.c:302
 msgid "Zoom"
 msgstr ""
 
-#: settings.c:259
+#: settings.c:261
 msgid "Speedhacks"
 msgstr ""
 

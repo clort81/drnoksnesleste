@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drnoksnes\n"
 "Report-Msgid-Bugs-To: maemo@javispedro.com\n"
-"POT-Creation-Date: 2021-06-28 00:51+0200\n"
+"POT-Creation-Date: 2021-06-28 10:43+0200\n"
 "PO-Revision-Date: 2010-02-10 09:17+0100\n"
 "Last-Translator: Philipp Zabel <philipp.zabel@gmail.com>\n"
 "Language-Team: German\n"
@@ -54,7 +54,7 @@ msgstr "Ton einschalten"
 msgid "Display framerate"
 msgstr "Bildwiederholrate anzeigen"
 
-#: plugin.c:313 settings.c:237
+#: plugin.c:313 settings.c:233
 msgid "Accurate graphics"
 msgstr "Akkurate Grafik"
 
@@ -62,15 +62,15 @@ msgstr "Akkurate Grafik"
 msgid "Framerate:"
 msgstr "Bildwiederholrate:"
 
-#: plugin.c:326 settings.c:269
+#: plugin.c:326 settings.c:265
 msgid "No speedhacks"
 msgstr "Keine Speedhacks"
 
-#: plugin.c:327 settings.c:270
+#: plugin.c:327 settings.c:266
 msgid "Safe hacks only"
 msgstr "Nur sichere Hacks"
 
-#: plugin.c:328 settings.c:271
+#: plugin.c:328 settings.c:267
 msgid "All speedhacks"
 msgstr "Alle Speedhacks"
 
@@ -82,11 +82,11 @@ msgstr "Einstellungen..."
 msgid "About…"
 msgstr "Über..."
 
-#: plugin.c:430 settings.c:190
+#: plugin.c:430 settings.c:186
 msgid "Settings"
 msgstr "Einstellungen"
 
-#: plugin.c:440 settings.c:209
+#: plugin.c:440 settings.c:205
 msgid "Controls"
 msgstr "Steuerung"
 
@@ -181,47 +181,51 @@ msgstr ""
 msgid "Key"
 msgstr "Tasten"
 
-#: settings.c:51 settings.c:58 settings.c:60
+#: settings.c:50 settings.c:58
 msgid "2x zoom"
 msgstr "2x Vergrößerung"
 
-#: settings.c:53
+#: settings.c:52
 msgid "Scale to fit"
 msgstr "Auf Bildschirmgröße skalieren"
 
-#: settings.c:54
+#: settings.c:53
 msgid "Fill the entire screen"
 msgstr "Den ganzen Bildschirm füllen"
 
-#: settings.c:57
+#: settings.c:54
+msgid "Fill vertical keep aspect"
+msgstr ""
+
+#: settings.c:55
 msgid "Antialiased 2x zoom"
 msgstr "2x Zoom mit Kantenglättung"
 
-#: settings.c:63
+#: settings.c:59
 msgid "No zoom"
 msgstr "Kein Zoom"
 
-#: settings.c:216
+#: settings.c:212
 msgid "Player 1"
 msgstr "Spieler 1"
 
-#: settings.c:225
+#: settings.c:221
 msgid "Player 2"
 msgstr "Spieler 2"
 
-#: settings.c:231
+#: settings.c:227
 msgid "Advanced"
 msgstr "Erweitert"
 
-#: settings.c:244 settings.c:309
+#: settings.c:240 settings.c:305
 msgid "Pause game in the background"
 msgstr "Spiel im Hintergrund anhalten"
 
-#: settings.c:251 settings.c:304
+#: settings.c:247 settings.c:300
 msgid "Zoom"
 msgstr "Zoom"
 
-#: settings.c:263
+#: settings.c:259
 msgid "Speedhacks"
 msgstr "Speedhacks"
 

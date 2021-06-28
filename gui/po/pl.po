@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: drnoksnes\n"
 "Report-Msgid-Bugs-To: maemo@javispedro.com\n"
-"POT-Creation-Date: 2021-06-28 10:43+0200\n"
+"POT-Creation-Date: 2021-06-28 10:58+0200\n"
 "PO-Revision-Date: 2010-03-29 13:46+0100\n"
 "Last-Translator: Tomasz Dominikowski <dominikowski@gmail.com>\n"
 "Language-Team: Polish <dominikowski@gmail.com>\n"
@@ -54,7 +54,7 @@ msgstr "Włącz dźwięk"
 msgid "Display framerate"
 msgstr "Wyświetlaj liczbę klatek/s"
 
-#: plugin.c:313 settings.c:233
+#: plugin.c:313 settings.c:235
 msgid "Accurate graphics"
 msgstr "Dokładna grafika"
 
@@ -62,15 +62,15 @@ msgstr "Dokładna grafika"
 msgid "Framerate:"
 msgstr "Klatek/s:"
 
-#: plugin.c:326 settings.c:265
+#: plugin.c:326 settings.c:267
 msgid "No speedhacks"
 msgstr "Bez sztuczek z prędkością"
 
-#: plugin.c:327 settings.c:266
+#: plugin.c:327 settings.c:268
 msgid "Safe hacks only"
 msgstr "Tylko bezpieczne sztuczki"
 
-#: plugin.c:328 settings.c:267
+#: plugin.c:328 settings.c:269
 msgid "All speedhacks"
 msgstr "Wszystkie sztuczki z prędkością"
 
@@ -82,11 +82,11 @@ msgstr "Ustawienia..."
 msgid "About…"
 msgstr "O programie..."
 
-#: plugin.c:430 settings.c:186
+#: plugin.c:430 settings.c:188
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: plugin.c:440 settings.c:205
+#: plugin.c:440 settings.c:207
 msgid "Controls"
 msgstr "Sterowanie"
 
@@ -180,7 +180,7 @@ msgstr "Przycisk"
 msgid "Key"
 msgstr "Klawisz"
 
-#: settings.c:50 settings.c:58
+#: settings.c:50 settings.c:60
 msgid "2x zoom"
 msgstr "2x przybliżenie"
 
@@ -196,35 +196,35 @@ msgstr "Wypełnienie ekranu"
 msgid "Fill vertical keep aspect"
 msgstr ""
 
-#: settings.c:55
+#: settings.c:57
 msgid "Antialiased 2x zoom"
 msgstr "Wygładzane 2x przybliżenie"
 
-#: settings.c:59
+#: settings.c:61
 msgid "No zoom"
 msgstr "Bez przybliżenia"
 
-#: settings.c:212
+#: settings.c:214
 msgid "Player 1"
 msgstr "Gracz 1"
 
-#: settings.c:221
+#: settings.c:223
 msgid "Player 2"
 msgstr "Gracz 2"
 
-#: settings.c:227
+#: settings.c:229
 msgid "Advanced"
 msgstr "Zaawansowane"
 
-#: settings.c:240 settings.c:305
+#: settings.c:242 settings.c:307
 msgid "Pause game in the background"
 msgstr "Wstrzymaj grę w tle"
 
-#: settings.c:247 settings.c:300
+#: settings.c:249 settings.c:302
 msgid "Zoom"
 msgstr "Przybliżenie"
 
-#: settings.c:259
+#: settings.c:261
 msgid "Speedhacks"
 msgstr "Sztuczki z prędkością"
 
